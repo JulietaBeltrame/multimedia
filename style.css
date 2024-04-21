@@ -127,18 +127,18 @@ h1{
 }
 
 .img1 {
-    margin-left: 30%;
-    margin-top: 1%;
+    margin-left: 28%;
+    margin-top: 3%;
 }
 
 .img2 {
-    margin-left: 8%;
-    margin-top: 1%;
+    margin-left: 6%;
+    margin-top: 3%;
 }
 
 .img3 {
-    margin-left: 8%;
-    margin-top: 1%;
+    margin-left: 6%;
+    margin-top: 3%;
 }
 
 input[type=text] {
@@ -152,7 +152,7 @@ input[type=text] {
 
 .search-bar {
     position:absolute;
-    margin-left: 38%;
+    margin-left: 36%;
     float: right;
     padding: 30px 10px;
     margin-right: 16px;
@@ -163,8 +163,9 @@ input[type=text] {
 
 
 .search-bar [type=image] {
-    border-radius: 25px;
-    border-color: #1c1c1c;
     padding-left: 85%;
-    padding-bottom: 5px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 36%;
 }
