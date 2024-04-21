@@ -26,18 +26,18 @@ header {
     max-width: 5rem;
 }
 
-
 .nav-list {
-    list-style-type: none;
+    list-style-type:none;
     display: flex;
     gap: 2rem;
+    width: 100%;
+    
 }
 
 .nav-list li a {
-   text-align: center;
+    text-align: center;
     text-decoration: none;
     color: white;
-
 }
 
 .abrir-menu,
@@ -97,7 +97,7 @@ header {
 
 }
 .fondo{
-    background-image: url(/img/fondoo.jpg);
+    background-image: url(img/fondoo.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,4 +119,10 @@ h1{
     font-size: 30px;
     
     top: -80px;
+}
+
+input[type=image] {   
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
 }
