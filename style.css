@@ -97,7 +97,7 @@ header {
 
 }
 .fondo{
-    background-image: url(fondoo.jpg);
+    background-image: url(/img/fondoo.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
