@@ -121,7 +121,7 @@ h1{
     top: -80px;
 }
 
-input[type=image] {   
+.fondo input[type=image] {   
     width: 150px;
     height: 150px;
 }
@@ -139,4 +139,32 @@ input[type=image] {
 .img3 {
     margin-left: 8%;
     margin-top: 1%;
+}
+
+input[type=text] {
+    width: 400px;
+    height: 30px;
+    border-radius: 25px;
+    border-color: #1c1c1c;
+    padding-left: 3%;
+    background-color: #333232;
+}
+
+.search-bar {
+    position:absolute;
+    margin-left: 38%;
+    float: right;
+    padding: 30px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.search-bar [type=image] {
+    border-radius: 25px;
+    border-color: #1c1c1c;
+    padding-left: 85%;
+    padding-bottom: 5px;
 }
